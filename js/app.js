@@ -11,7 +11,7 @@ angular.module('TodoApp').config(function($routeProvider) {
         controller: 'RegisterController'
     })
     .when('/todo', {
-    	templateUrl: 'templates/todo.html',
-    	controller: 'TodoController'
+        templateUrl: 'templates/todo.html',
+        controller: 'TodoController'
     });
 });
